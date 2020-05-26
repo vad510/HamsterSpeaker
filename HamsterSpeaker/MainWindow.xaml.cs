@@ -60,7 +60,7 @@ namespace HamsterSpeaker
         void timer_Tick(object sender, EventArgs e)
         {
             WriteLn("1");
-            SetCursorPos(1000, 1000);
+            //SetCursorPos(1000, 1000);
         }
         async Task RecognizeSpeechAsync()
         {
